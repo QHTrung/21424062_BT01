@@ -1,0 +1,30 @@
+Họ và tên: Quách Hải Trung
+MSSV: 21424062
+Lớp: 21HCB
+Bài tập 01 - Quản lý học sinh bằng java swing
+----------	HƯỚNG DẪN SỬ DỤNG	-----------
+B1: Chạy chương trình bằng IDE hoặc chạy bằng file jar đã có sẵn trong project (21424062.jar)
+
+B2: Chương trình sẽ hiện ra giao diện cho người dùng với các chức năng:
+	+ Thêm học sinh
+        + Cập nhật thông tin học sinh.
+        + Xóa học sinh.
+        + Xem danh sách học sinh theo MHS tăng dần
+        + Xem danh sách học sinh theo MHS giảm dần
+        + Xem danh sách học sinh theo Điểm tăng dần
+        + Xem danh sách học sinh theo Điểm giảm dần
+        + Export danh sách học sinh ra file csv
+        + Import danh sách học sinh từ file student.csv
+
+B3: Người dùng sẽ lựa chọn chức năng:
+	+ Chức năng 1: Thêm học sinh, người dùng nhập lần lượt các thông tin của từng học sinh (Mã HS, Tên HS, Địa chỉ, Ghi chú, Điểm), sau đó bấm nút Thêm thì thông tin của học sinh mới được thêm sẽ hiện ở bảng bên dưới.
+	+ Chức năng 2: Cập nhật thông tin học sinh, người dùng nhấn vào dòng chứa học sinh cần cập nhật, sau đó nhập lần lượt các thông tin cần cập nhật, sau đó bấm nút Cập nhật thì thông tin của học sinh đã chọn sẽ được cập nhật và hiện ở bảng bên dưới.
+	+ Chức năng 3: Xóa học sinh, người dùng nhấn vào dòng chứa học sinh cần xóa, sau đó bấm nút Xóa thì thông tin của học sinh đã chọn sẽ được Xóa khỏi danh sách lớp.
+	+ Chức năng 4: Xem danh sách theo MHS tăng dần, người dùng bấm nút Mã HS Tăng Dần thì chương trình sẽ sắp xếp danh sách học sinh theo mã học sinh tăng dần và hiện ở bảng bên dưới.
+	+ Chức năng 5: Xem danh sách theo MHS giảm dần, người dùng bấm nút Mã HS Giảm Dần thì chương trình sẽ sắp xếp danh sách học sinh theo mã học sinh giảm dần và hiện ở bảng bên dưới.
+	+ Chức năng 6: Xem danh sách theo điểm tăng dần, người dùng bấm nút Điểm Tăng Dần thì chương trình sẽ sắp xếp danh sách học sinh theo điểm của học sinh tăng dần và hiện ở bảng bên dưới.
+	+ Chức năng 7: Xem danh sách theo điểm giảm dần, người dùng bấm nút Điểm Giảm Dần thì chương trình sẽ sắp xếp danh sách học sinh theo điểm của học sinh giảm dần và hiện ở bảng bên dưới.
+	+ Chức năng 8: Export danh sách học sinh ra file csv, người dùng bấm nút Export, sau đó chọn nơi muốn lưu file và
+	đặt tên file, chương trình sẽ báo thành công nếu export thành công và thông báo thất bại nếu export thất bại.
+	+ Chức năng 9: Import danh sách học sinh từ file student.csv (đính kèm trong thư mục data), người dùng bấm nút Load, nếu load thành công thì danh sách học sinh sẽ được hiện lên bảng và sẽ thông báo thất bại nếu import file thất bại.
+	
